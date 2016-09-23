@@ -6152,19 +6152,7 @@ You can put in here some News or Google Adsense ...
 {$footer}
 </body>
 </html>]]></template>
-		<template name="index_boardstats" version="1807"><![CDATA[<div class="banners">
-		<span class="banner-left" style="text-align:center;">
-<!-- BEGIN LINK -->
-<a target="_blank" href="https:&#x2F;&#x2F;www.namecheap.com&#x2F;?aff=91721"><img src="http:&#x2F;&#x2F;files.namecheap.com&#x2F;graphics&#x2F;linkus&#x2F;468x60-3.gif" width="468" height="60" border="0" alt="Namecheap.com"></a>
-<!-- END LINK -->
-		</span>
-		<span class="banner-right" style="text-align:center;">
-<!-- BEGIN LINK -->
-<a target="_blank" href="https://share.payoneer.com/nav/A-MemWURhl7QaXkEwFUbM-4c3xc7JCBjs5ryhjd8whqZ1eqnUQpA0af7v9xLGT8PShxJ2P8apZAcEeWMyY2Tfg2"><img src="{$theme['imgdir']}/payoneer-banner.png" width="468" height="60" border="0" alt="Payoneer"></a>
-<!-- END LINK -->
-		</span>
-</div>
-<!-- END BANNERS -->
+		<template name="index_boardstats" version="1807"><![CDATA[
 
 <table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
 <thead>
@@ -7418,19 +7406,7 @@ if(use_xmlhttprequest == "1")
 	</script>
 </body>
 </html>]]></template>
-		<template name="showthread_quickreply" version="1807"><![CDATA[<div class="banners-quick">
-		<span class="banner-left" style="text-align:center;">
-<!-- BEGIN LINK -->
-<a target="_blank" href="https:&#x2F;&#x2F;www.namecheap.com&#x2F;?aff=91721"><img src="http:&#x2F;&#x2F;files.namecheap.com&#x2F;graphics&#x2F;linkus&#x2F;468x60-3.gif" width="468" height="60" border="0" alt="Namecheap.com"></a>
-<!-- END LINK -->
-		</span>
-		<span class="banner-right" style="text-align:center;">
-<!-- BEGIN LINK -->
-<a target="_blank" href="https://share.payoneer.com/nav/A-MemWURhl7QaXkEwFUbM-4c3xc7JCBjs5ryhjd8whqZ1eqnUQpA0af7v9xLGT8PShxJ2P8apZAcEeWMyY2Tfg2"><img src="{$theme['imgdir']}/payoneer-banner.png" width="468" height="60" border="0" alt="Payoneer"></a>
-<!-- END LINK -->
-		</span>
-</div>
-<!-- END BANNERS -->
+		<template name="showthread_quickreply" version="1807"><![CDATA[
 
 <div id="quickreply_spinner" class="showthread_spinner" style="display: none"><img src="{$theme['imgdir']}/spinner.gif" /></div>
 <br />
