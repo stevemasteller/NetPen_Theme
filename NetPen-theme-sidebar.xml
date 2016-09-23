@@ -5700,6 +5700,7 @@ blockquote {
                   	<li><a href="{$mybb->settings['bburl']}/search.php?action=getdaily">Today's Posts</a></li>
                   	<li><a href="{$mybb->settings['bburl']}/calendar.php">Calendar</a></li>
                 	<li><a href="{$mybb->settings['bburl']}/misc.php?action=help">Help</a></li>
+					<li><a href="http://www.stevemasteller.com">NUMBER1EARNER.com</a></li>
               	</ul>
           	</div>
         	<div class="usersection">
