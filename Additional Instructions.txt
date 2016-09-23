@@ -1,0 +1,131 @@
+
+We have added a few custom content parts in NetPen Theme. In order to remove it or adjust it to your own needs or with your own content follow
+
+these instructions.
+----------------------------------------------------------------------------------------------------------
+NOTE: In order to perform these changes you need to be familiar at least with some basic HTML knowledge.
+
+----------------------------------------------------------------------------------------
+  TWO THEME VERSIONS:
+
+- We have now two versions of NetPen Theme:
+  1. With sliding sidebar on index page - NetPen-theme-sidebar.xml.
+  2. Without sidebar on index page - NetPen-theme.xml.
+  
+  Please install the desired one.
+  If you want to use a Plugin to have Sidebar choose Version WITHOUT sidebar, otherwise you'll have two sidebars.
+ 
+----------------------------------------------------------------------------------------
+
+  COLOR VERSIONS:
+  
+  NetPen comes with 4 Theme color combinations
+  
+    1. Default (Blue)
+	2. Dark     
+	3. Orange
+	4 Green
+	
+  In order to choose the desired color combination go to:
+  
+  ACP >> Templates & Styles >> NetPen-Options-Edit Theme >> in Mange Colors Section, choose the desired color combination - then press "Save Theme Properties".
+ 
+----------------------------------------------------------------------------------------
+
+  CUSTOM STYLE:
+  
+  If you want to change anything related to the Theme Styling, using CSS, please do it only in theme.css file.
+  Also MAKE SURE theme.css is always in the last position in "Stylesheets in NetPen", comparing to other CSS files.
+ 
+----------------------------------------------------------------------------------------
+
+- To remove or change content of "Welcome to NetPen Theme - Free Responsive MyBB Theme - Read More" in .panel-top, edit the following Template:
+ 
+ Home » Template Sets » NetPen Templates » Header Templates » header
+  
+    find the following lines of code:
+	
+ 	<div id="panel-top">
+			<p style="text-align: center; color: #f1f1f1;"> Welcome to NetPen Theme - Free Responsive MyBB Theme - 
+			<span><a href=""> Read More</a></span></p>
+	</div>
+ 
+----------------------------------------------------------------------------------------
+
+- We have added custom footer content. You can either remove it or adjust it to your own content and needs.
+ 
+ 1. To remove it completely, find line 423 in global.css file(.footer) and add " display: none; ".
+ 
+ 2. To change it to your own needs edit the following Template:
+ 
+ Home » Template Sets » NetPen Templates » Fotter Templates » footer	
+ 
+----------------------------------------------------------------------------------------- 
+ 
+- To remove banners or replace it with your own ones, edit the following Templates:
+
+1. Home » Template Sets » NetPen Templates » Index Page Templates » index_boardstats
+ 
+ Either delete the following:
+  
+<div class="banners">
+		<span class="banner-left" style="text-align:center;">
+<!-- BEGIN LINK -->
+<a target="_blank" href="https:&#x2F;&#x2F;www.namecheap.com&#x2F;?aff=91721"><img src="http:&#x2F;&#x2F;files.namecheap.com&#x2F;graphics&#x2F;linkus&#x2F;468x60-3.gif" width="468" height="60" border="0" alt="Namecheap.com"></a>
+<!-- END LINK -->
+		</span>
+		<span class="banner-right" style="text-align:center;">
+<!-- BEGIN LINK -->
+<a target="_blank" href="https://share.payoneer.com/nav/A-MemWURhl7QaXkEwFUbM-4c3xc7JCBjs5ryhjd8whqZ1eqnUQpA0af7v9xLGT8PShxJ2P8apZAcEeWMyY2Tfg2"><img src="{$theme['imgdir']}/payoneer-banner.png" width="468" height="60" border="0" alt="Payoneer"></a>
+<!-- END LINK -->
+		</span>
+</div>
+
+  OR replace it with your own Banners codes.
+ 
+
+2. Home » Template Sets » NetPen Templates » Index Show Thread Templates » showthread_quickreply
+ 
+ Either delete the following:
+  
+<div class="banners-quick">
+		<span class="banner-left" style="text-align:center;">
+<!-- BEGIN LINK -->
+<a target="_blank" href="https:&#x2F;&#x2F;www.namecheap.com&#x2F;?aff=91721"><img src="http:&#x2F;&#x2F;files.namecheap.com&#x2F;graphics&#x2F;linkus&#x2F;468x60-3.gif" width="468" height="60" border="0" alt="Namecheap.com"></a>
+<!-- END LINK -->
+		</span>
+		<span class="banner-right" style="text-align:center;">
+<!-- BEGIN LINK -->
+<a target="_blank" href="https://share.payoneer.com/nav/A-MemWURhl7QaXkEwFUbM-4c3xc7JCBjs5ryhjd8whqZ1eqnUQpA0af7v9xLGT8PShxJ2P8apZAcEeWMyY2Tfg2"><img src="{$theme['imgdir']}/payoneer-banner.png" width="468" height="60" border="0" alt="Payoneer"></a>
+<!-- END LINK -->
+		</span>
+</div>
+<!-- END BANNERS -->
+
+  OR replace it with your own Banners codes.
+  
+--------------------------------------------------------------------------------------------
+
+To change Login Box content, edit the following template:
+
+ Home » Template Sets » NetPen Templates » Header Templates » header_welcomeblock_guest
+ 
+To chnage an icon just replace netpen-icon.png with your own icon image in netpen image folder.
+
+---------------------------------------------------------------------------------------------
+
+Custom images:
+
+All the custom images are placed in netpen image folder. In order to replace them, just upload your own images with the same name as an image 
+that you want to replace.
+
+example: If you want to replace logo.png image. Upload your own image with the same name logo.png
+
+
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,45 @@
+LICENCE
+---------------------------------------------------------------------------------------------------
+
+You can edit, remove and modify whatever you want, BUT PLEASE: either don't remove "created by: NetScripter" in footer or 
+
+place any of the following Banner text or image codes, anywhere on your Forum:
+
+Banner image 468x60:
+<a href="http://netscripter.info" target="_blank"><img src="http://netscripter.info/banners/banner468x60.png" /></a>
+
+Banner image 234x60:
+<a href="http://netscripter.info" target="_blank"><img src="http://netscripter.info/banners/banner234x60.png" /></a>
+
+Banner image 125x125:
+<a href="http://netscripter.info" target="_blank"><img src="http://netscripter.info/banners/banner125x125.png" /></a>
+
+Banner text (text link):
+<a href="http://netscripter.info" target="_blank">NetScripter - Webmasters Goodies</a>
+
+
+If you respect our work, I'm sure you're gonna do that.
+
+
+SUPPORT
+---------------------------------------------------------------------------------------------------
+
+This is a FREE Theme, so we can only provide support in two ways:
+
+1. On MyBB Official Forum.
+
+2. On our Forum: http://netpen.info/forumdisplay.php?fid=49
+
+
+CREDITS
+---------------------------------------------------------------------------------------------------
+
+Credits to MyBB for their awesome software and community. Link to them: www.mybb.com
+
+To Dave Gandy for their GREAT FontAwesome Icons! Check his site: http://fontawesome.io/
+
+To Bootstrap Core Team and their GREAT front-end framework! Link to them: http://getbootstrap.com/
+
+----------------------------------------------------------------------------------------------------
+
+Finally GREAT Thanks to you all who use our NetPen Theme!!!

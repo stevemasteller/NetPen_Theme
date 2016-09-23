@@ -1,0 +1,571 @@
+/* RESPONSIVE - MOBILE DEVICES - DESIGN */
+
+@media only screen and (max-width: 736px){
+    body{
+	  min-width: 100%;
+	}
+    div {
+      box-sizing: border-box;
+    }
+    #container{
+	  width: 100%;
+      margin: 0px 0;
+	}
+    .wrapperindex {
+      width: 99%;
+    }
+    #header {
+	  display: none;
+    }
+    #logo {
+	  display: none;
+    }
+    #header-responsive {
+	  display: block;
+    }
+    .usermenu-responsive {
+	  display: block;
+    }
+    .userunique-responsive {
+	  float: left;
+    }
+    .float_left {
+
+    }
+    .user_avatar {
+	  background: #fff;
+      margin: 10px 0 12px 12px;
+      float: left;
+    }
+    .navigation-responsive {
+      display: block;
+	  color: #fff;
+	  text-align: center;
+      padding: 5px 5px 7px 10px;
+      border-top: 0px solid #ccc;
+      border-bottom: 0px solid #ccc;
+      background: #405972;
+    }
+    a.crumb {
+      color: #fff;
+    }
+    a.crumb:hover {
+      color: #ea6b62;
+    }
+    .navbar-nav{
+      margin: 0px -15px !important;
+      border-top: 2px solid #ea6b62;
+    }
+
+    .nav>li {
+      background-color: #23313E !important;
+	  text-align: center;
+    }
+	
+    .nav>li:hover {
+      background-color: #405972 !important;
+    }
+
+    .navbar-nav>li>a {
+      color: #fff !important;
+    }
+	li.home a::before {
+      display: none;
+    }
+	#ucp-full {
+      display: block;
+    }
+    .usercp_navigation {
+      display: none;
+    }
+    .ucp-right {
+      width: 100%;
+    }
+    .usercp_container {
+      background: transparent;
+	  text-align: center;
+	  border-top: 0px solid #CCCCCC !important;
+	  border-left: 0px solid #CCCCCC !important;
+	  border-right: 0px solid #CCCCCC !important;
+	  border-bottom: 1px solid #CCCCCC;
+    }
+    .usercp_container img {
+      background: #fff;
+	  border: 1px solid #CCCCCC;
+    }
+    a.usercp_nav_item {
+      font-size: 15px;
+      width: 200px;
+      margin: 0 auto;
+    }
+	.ucp-right .float_right strong {
+      font-size: 12px;
+	  padding-right: 5px;
+    }
+	.ucp-right .trow1, .ucp-right .trow2 {
+      font-size: 11px;
+      text-align: center;
+    }
+    .author_information a {
+      font-size: 14px;
+    }
+	a.usercp_nav_item {
+      padding-left: 0px;
+    }
+	.full {
+      display: none;
+    }
+    .responsive {
+      display: block;
+    }
+    .wrapper-head {
+	  display: none;
+    }
+    .wrapper {
+      width: 99%;
+    }
+    .post .post_author div.author_information {
+      width: 40%;
+    }
+    .post .post_author div.author_statistics {
+      width: 37%;
+    }
+    .pre-next {
+      float: none;
+    }
+    .modal {
+      width: 90%;
+	  height: 310px;
+	  margin-top: 0px !important;
+	  top: 3% !important;
+      margin-left: 0px !important;
+      left: 5% !important;
+    }
+    .welcomebox {
+      width: 95%; 
+      margin: 10px 0 0 7px;
+      text-align: left;
+	  display: none;
+    }
+    .welcomelogin {
+       border-top: 2px solid #ea6b62;
+       border-left: 0px solid #ea6b62;
+       width: 90%;
+       padding: 30px 0px 0 10px;
+	   margin-left: 0px;
+    }
+    .menu {
+      display: none;
+    }
+    .usersection {
+      display: none;
+    }
+    .usermenu {
+      display: none;
+    }
+    .wrapperindex {
+      width: 100%;
+    }
+    .breadcrumb {
+      display: none;
+    }
+	
+    .mark-subscribe {
+	  width: 100%;
+      float: left;
+	  height: 30px;
+    }
+    form#full {
+	  display: none;
+    }
+    form .tcat {
+	  display: none;
+    }
+    form#form-responsive {
+	  display: block;
+	  width: 95%;
+      margin: 0 auto;
+    }
+    form#form-responsive textarea {
+      width: 98%;
+    }
+    form#form-responsive tr {
+
+    }
+	#thread_modes {
+		font-size: 9px;
+		padding-right: 3px;
+	}
+	.attach {
+       display: none;
+	}
+	#attach {
+       display: none;
+	}
+	table {
+		overflow-x: auto;
+	}
+	input.textbox {
+       width: 90%;
+	}
+	table.tborder {
+		background: #fff;
+		width: 99%;
+	}
+
+	td.thead {
+		width: 100%;
+        padding: 0px;
+		text-align: center;
+		line-height: 50px;
+	}
+	
+	td.thead strong {
+       font-size: 15px;
+	}
+	tr.sort {
+       display: none;
+	}
+	.folder_icon {
+       display: none;
+	}
+    .trow1, .trow2 {
+      padding: 3px 0px;
+    }
+    .thread_legend, .thread_legend dd {
+      display: none;
+    }
+	.float_left .multi {
+       display: none;
+	}
+	.thread_tools {
+       display: none;
+	}
+	span.tstat {
+	   float: left;
+       width: 70%;
+	   font-size: 10px;
+       padding-left: 7px;
+	   display: block;
+    }
+	span.desc {
+        display: none;
+    }
+	.smalltextdesc {
+        display: none;
+    }
+	.status {
+        padding: 5px !important;
+    }
+    .trowstat {
+      background: transparent;
+      padding: 5px;
+      font-size: 10px;
+      border-left: 0px solid #fff;
+      text-align: left;
+      float: left !important;
+	  min-height: 10px;
+    }
+	a.fname {
+      width: 100%;
+      font-size: 13px;
+      padding: 5px 0 0 5px;
+    }
+	span.smalltext strong {
+      font-size: 12px;
+    }
+	.wrapperindex .smalltext {
+      font-size: 9px;
+    }
+	.tcat, .tfoot {
+
+    }
+    .trow_stats_threads, 
+    .trow_stats_users,
+    .trow_stats_newusers,
+    .trow_stats_mostusers {
+      width: 100%;
+	  float: left;
+	  text-align: center;
+    }
+	dl.forum_legend {
+      display: none;
+    }
+	.bottom_top {
+      width: 100%;
+	  float: left;
+	  text-align: center;
+    }
+	.theme {
+      float: left;
+    }
+    .banners {
+      width: 100%;
+	  padding: 5px;
+    }
+    .banner-left {
+      width: 95%;
+    }
+    .banner-right {
+      float: left;
+      width: 95%;
+    }
+    img, embed, object, video {
+      max-width: 100%;
+	  margin-bottom: 15px;
+    }
+	
+    #boardstats_e {
+	  text-align: center;
+    }
+	
+    #boardstats_e span.smalltext {
+	  width: 100%;
+	  padding: 0px;
+    }
+	
+	.footer{
+		font: bold 14px sans-serif;
+	}
+
+	.footer .footer-left,
+	.footer .footer-center,
+	.footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	
+	.footer-center h3, .footer-right h3 {
+      width: 100%;
+    }
+
+	.footer .footer-center i{
+		margin-left: 0;
+	}
+
+    .select {
+      margin: 10px auto 10px;
+      padding: 0;
+      width: 90%;
+      height: 40px;
+      color: #FFFFFF;
+	  text-align: center;
+      display: inline-block;
+      border-bottom: 2px solid #ea6b62;
+    }
+    .select select {
+      background: #fff;
+      color: #5c6570;
+      border: 1px solid #777;
+      padding: 3px;
+      outline: 0;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 20px;
+      width: 80%;
+      text-align: center;
+      margin: 2px auto;
+    }
+    .expcolimage {
+      margin: 0px 5px;
+    }
+}
+
+@media screen and (max-width: 980px) and (min-width: 736px){
+    body{
+	  min-width: 100%;
+	}
+    div {
+      box-sizing: border-box;
+    }
+    #container{
+	  width: 100%;
+      margin: 0px 0;
+	}
+    .wrapper {
+      width: 99%;
+    }
+    .wrapperindex {
+      width: 99%;
+    }
+    #logo {
+      margin-top: 50px;
+    }
+    .modal {
+      width: 90%;
+	  height: 600px;
+	  margin-top: 30px !important;
+	  top: 3% !important;
+      margin-left: 0px !important;
+      left: 5% !important;
+    }
+    .welcomebox {
+      width: 95%; 
+      margin: 10px 0 0 7px;
+      text-align: left;
+    }
+    .welcomelogin {
+       border-top: 2px solid #ea6b62;
+       border-left: 0px solid #ea6b62;
+       width: 90%;
+       padding: 30px 0px 0 10px;
+	   margin-left: 0px;
+    }
+	.menu {
+      width: 420px;
+    }
+	.menu ul li {
+      height: 47px;
+      line-height: 47px;
+    }
+	.usersection {
+      width: 320px;
+    }
+	.dropdown-content {
+      right: -15px !important;
+    }
+	
+	.navbar-nav>li>a {
+      color: #fff
+    }
+
+    .navbar-nav>li>a:hover{
+      color: #23313E
+    }
+
+    .navbar-collapse {
+      float: right;
+    }
+
+	table {
+		overflow-x: auto;
+	}
+	table.tborder {
+		background: #fff;
+		width: 99%;
+	}
+
+	td.thead {
+        padding: 0px;
+		text-align: center;
+		line-height: 50px;
+	}
+	
+	td.thead strong {
+       font-size: 15px;
+	}
+	
+	span.desc {
+        display: none;
+    }
+	.smalltextdesc {
+        display: none;
+    }
+	.status {
+        padding: 5px !important;
+    }
+    .trowstat {
+      background: transparent;
+      padding: 5px;
+      font-size: 10px;
+      border-left: 0px solid #fff;
+      text-align: left;
+      float: left !important;
+    }
+	a.fname {
+      width: 100%;
+      font-size: 13px;
+      padding: 5px 0 0 5px;
+    }
+	span.smalltext strong {
+      font-size: 12px;
+    }
+	.wrapperindex .smalltext {
+      font-size: 9px;
+    }
+	.tcat, .tfoot {
+
+    }
+    .trow_stats_threads, 
+    .trow_stats_users,
+    .trow_stats_newusers,
+    .trow_stats_mostusers {
+      width: 100%;
+	  float: left;
+	  text-align: center;
+    }
+	dl.forum_legend {
+      display: none;
+    }
+	.bottom_top {
+      width: 100%;
+	  float: left;
+	  text-align: center;
+    }
+	.theme {
+      float: left;
+    }
+    .banners {
+      width: 100%;
+	  padding: 5px;
+    }
+    .banner-left {
+      width: 95%;
+    }
+    .banner-right {
+      float: left;
+      width: 95%;
+    }
+    img, embed, object, video {
+      max-width: 100%;
+	  margin-bottom: 15px;
+    }
+	
+    #boardstats_e {
+	  text-align: center;
+    }
+	
+    #boardstats_e span.smalltext {
+	  width: 100%;
+	  padding: 0px;
+    }
+	
+	.footer{
+		font: bold 14px sans-serif;
+	}
+
+    .footer {
+      padding: 15px 10px;
+    }
+
+	.footer .footer-center i{
+		margin-left: 0;
+	}
+
+    .select {
+      margin: 10px auto 10px;
+      padding: 0;
+      width: 90%;
+      height: 40px;
+      color: #FFFFFF;
+	  text-align: center;
+      display: inline-block;
+      border-bottom: 2px solid #ea6b62;
+    }
+    .select select {
+      background: #fff;
+      color: #5c6570;
+      border: 1px solid #777;
+      padding: 3px;
+      outline: 0;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 20px;
+      width: 80%;
+      text-align: center;
+      margin: 2px auto;
+    }
+    .expcolimage {
+      margin: 0px 5px;
+    }
+}

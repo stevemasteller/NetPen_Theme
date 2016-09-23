@@ -1,0 +1,8 @@
+Follow this steps to install it correctly.
+
+1. Open the "Upload" folder and upload all the content to the root of your forum.
+2. If the system ask you to replace, press "yes", it's only custom content.
+3. Go to ACP > Templates & Styles > Import a Theme > Select the NetPen-theme.xml or NetPen-theme-sidebar.xml(if you want to have sliding sidebar) and press upload.
+4. Go to Themes and set NetPen as the default theme.
+
+Hope you like it, and enjoy it!
