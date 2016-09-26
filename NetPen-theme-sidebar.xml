@@ -5893,7 +5893,7 @@ jQuery(document).ready(function() {
       	</div>
 		<div class="welcomebox">
 			<p><img src="{$theme['imgdir']}/np-icon.png" width="90" height="90" /></p>
-			<strong>Welcome to NetPen Forum</strong> <br />Webmasters | WordPress | Graphic Design ...and much more!<br /><br />
+			<strong>Welcome to NUMBER1EARNER.com Forum</strong> <br /><br /><br />
           	Not our member yet? What are you waiting for?! Join us now!
       	</div>
       	<div class="welcomelogin">
@@ -5963,8 +5963,8 @@ jQuery(document).ready(function() {
 <html xmlns="http://www.w3.org/1999/xhtml">]]></template>
 		<template name="index" version="1807"><![CDATA[<html>
 <head>
-<meta name="description" content="Webmasters, WordPress, Graphic Design Forum." />
-<meta name="keywords" content="forum, webmasters forum, wordpress forum, graphic design forum, design forum, netpen, design, graphic design, wordpress, webmaster, webmasters" />
+<meta name="description" content="Multi-Level Marketing Scam Busting" />
+<meta name="keywords" content="forum" />
 <meta name="robots" content="index, follow" />
 <title>{$mybb->settings['bbname']}</title>
 {$headerinclude}
